@@ -1,0 +1,14 @@
+{% extends 'blog_projects/base.html' %}
+
+{% block page_header %}
+    <div class="jumbotron">
+        <h1 class="display-3">Start your first Blog Here!</h1>
+
+        <p class="lead"> Make your own Blog project, and keep a list of the blogs you're blogging about. Whenever you blog something new about a subject, make an entry explaining how you feel.</p>
+
+        <a class="btn btn-lg btn-primary" href="{% url 'users:register' %}"
+            role="button">Register &raquo;</a>
+    </div>
+{% endblock page_header %}
+
+    
